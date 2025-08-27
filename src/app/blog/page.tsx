@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   keywords: ["mental health blog", "keynote speaking tips", "mental health app insights", "family systems blog", "children nutrition advice"],
 };
 
-// Blog post data structure
+// Blog post data structure - ALL 80 POSTS
 const blogPosts = [
   // Mental Health Speaking Posts
   {
@@ -334,6 +334,334 @@ const blogPosts = [
     excerpt: "Cost-effective strategies for providing quality protein nutrition to children without breaking the family budget.",
     category: "Children's Nutrition",
     date: "2025-07-19",
+    readTime: "7 min read"
+  },
+
+  // BATCH 2: NEW ARTICLES - Mental Health Speaking (10 more)
+  {
+    slug: "mental-health-stigma-workplace-keynote-speakers-guide-breaking-barriers",
+    title: "Mental Health Stigma in the Workplace: Keynote Speaker's Guide to Breaking Barriers",
+    excerpt: "Evidence-based strategies for addressing mental health stigma in corporate environments through transformational speaking.",
+    category: "Mental Health Speaking",
+    date: "2025-09-03",
+    readTime: "11 min read"
+  },
+  {
+    slug: "executive-leadership-mental-health-keynote-c-suite-engagement-strategies",
+    title: "Executive Leadership Mental Health Keynote: C-Suite Engagement Strategies",
+    excerpt: "Specialized approaches for delivering mental health presentations to senior executives and board members.",
+    category: "Mental Health Speaking",
+    date: "2025-09-04",
+    readTime: "9 min read"
+  },
+  {
+    slug: "healthcare-worker-burnout-keynote-speaking-frontline-mental-wellness",
+    title: "Healthcare Worker Burnout Keynote Speaking: Frontline Mental Wellness",
+    excerpt: "Tailored mental health presentations addressing unique challenges faced by healthcare professionals.",
+    category: "Mental Health Speaking",
+    date: "2025-09-05",
+    readTime: "10 min read"
+  },
+  {
+    slug: "remote-work-mental-health-virtual-keynote-engagement-techniques",
+    title: "Remote Work Mental Health: Virtual Keynote Engagement Techniques",
+    excerpt: "Adapting mental health speaking for distributed teams and virtual work environments.",
+    category: "Mental Health Speaking",
+    date: "2025-09-06",
+    readTime: "8 min read"
+  },
+  {
+    slug: "mental-health-first-aid-workplace-keynote-training-integration",
+    title: "Mental Health First Aid Workplace: Keynote Training Integration",
+    excerpt: "Combining keynote presentations with practical mental health first aid training for employees.",
+    category: "Mental Health Speaking",
+    date: "2025-09-07",
+    readTime: "12 min read"
+  },
+  {
+    slug: "diversity-inclusion-mental-health-speaking-multicultural-audiences",
+    title: "Diversity & Inclusion Mental Health Speaking for Multicultural Audiences",
+    excerpt: "Cultural competency strategies for delivering inclusive mental health presentations.",
+    category: "Mental Health Speaking",
+    date: "2025-09-08",
+    readTime: "9 min read"
+  },
+  {
+    slug: "student-mental-health-crisis-keynote-university-college-speaking",
+    title: "Student Mental Health Crisis: Keynote Speaking for Universities & Colleges",
+    excerpt: "Addressing academic mental health challenges through impactful campus presentations.",
+    category: "Mental Health Speaking",
+    date: "2025-09-09",
+    readTime: "10 min read"
+  },
+  {
+    slug: "workplace-suicide-prevention-keynote-sensitive-topic-navigation",
+    title: "Workplace Suicide Prevention Keynote: Sensitive Topic Navigation",
+    excerpt: "Professional guidelines for addressing suicide prevention in corporate mental health presentations.",
+    category: "Mental Health Speaking",
+    date: "2025-09-10",
+    readTime: "13 min read"
+  },
+  {
+    slug: "manager-supervisor-mental-health-training-keynote-leadership-development",
+    title: "Manager & Supervisor Mental Health Training: Keynote Leadership Development",
+    excerpt: "Specialized presentations equipping managers with mental health leadership skills.",
+    category: "Mental Health Speaking",
+    date: "2025-09-11",
+    readTime: "11 min read"
+  },
+  {
+    slug: "mental-health-keynote-roi-measurement-corporate-wellness-impact",
+    title: "Mental Health Keynote ROI Measurement: Corporate Wellness Impact",
+    excerpt: "Metrics and methods for demonstrating the business value of mental health speaking investments.",
+    category: "Mental Health Speaking",
+    date: "2025-09-12",
+    readTime: "8 min read"
+  },
+
+  // BATCH 2: NEW ARTICLES - Mental Health Technology (10 more)
+  {
+    slug: "mental-health-ai-chatbots-avalochat-human-connection-vs-automation",
+    title: "Mental Health AI Chatbots: AvaLoChat's Human Connection vs Automation",
+    excerpt: "Exploring the balance between AI efficiency and authentic human support in mental health apps.",
+    category: "Mental Health Technology",
+    date: "2025-09-13",
+    readTime: "10 min read"
+  },
+  {
+    slug: "telehealth-integration-avalochat-therapy-session-complement-tools",
+    title: "Telehealth Integration: AvaLoChat Therapy Session Complement Tools",
+    excerpt: "How mental health apps enhance remote therapy sessions and treatment continuity.",
+    category: "Mental Health Technology",
+    date: "2025-09-14",
+    readTime: "9 min read"
+  },
+  {
+    slug: "mental-health-app-addiction-avalochat-healthy-digital-boundaries",
+    title: "Mental Health App Addiction: AvaLoChat's Healthy Digital Boundaries",
+    excerpt: "Preventing technology dependence while maintaining beneficial mental health app usage.",
+    category: "Mental Health Technology",
+    date: "2025-09-15",
+    readTime: "8 min read"
+  },
+  {
+    slug: "workplace-mental-health-apps-avalochat-employee-assistance-programs",
+    title: "Workplace Mental Health Apps: AvaLoChat in Employee Assistance Programs",
+    excerpt: "Corporate integration strategies for mental health apps in workplace wellness initiatives.",
+    category: "Mental Health Technology",
+    date: "2025-09-16",
+    readTime: "11 min read"
+  },
+  {
+    slug: "mental-health-data-analytics-avalochat-personal-wellness-insights",
+    title: "Mental Health Data Analytics: AvaLoChat Personal Wellness Insights",
+    excerpt: "Using app data to identify mental health patterns and optimize personal wellness strategies.",
+    category: "Mental Health Technology",
+    date: "2025-09-17",
+    readTime: "10 min read"
+  },
+  {
+    slug: "adolescent-mental-health-apps-avalochat-teen-digital-native-support",
+    title: "Adolescent Mental Health Apps: AvaLoChat Teen Digital Native Support",
+    excerpt: "Specialized mental health app features designed for teenage users and developmental needs.",
+    category: "Mental Health Technology",
+    date: "2025-09-18",
+    readTime: "9 min read"
+  },
+  {
+    slug: "mental-health-app-gamification-avalochat-motivation-engagement-strategies",
+    title: "Mental Health App Gamification: AvaLoChat Motivation & Engagement Strategies",
+    excerpt: "Ethical gamification approaches that enhance mental health app engagement without manipulation.",
+    category: "Mental Health Technology",
+    date: "2025-09-19",
+    readTime: "7 min read"
+  },
+  {
+    slug: "offline-mental-health-support-avalochat-connectivity-independent-features",
+    title: "Offline Mental Health Support: AvaLoChat Connectivity-Independent Features",
+    excerpt: "Essential mental health app functionality that works without internet connection.",
+    category: "Mental Health Technology",
+    date: "2025-09-20",
+    readTime: "8 min read"
+  },
+  {
+    slug: "mental-health-app-clinical-trials-avalochat-evidence-based-validation",
+    title: "Mental Health App Clinical Trials: AvaLoChat Evidence-Based Validation",
+    excerpt: "Research methodology and clinical validation processes for mental health app effectiveness.",
+    category: "Mental Health Technology",
+    date: "2025-09-21",
+    readTime: "12 min read"
+  },
+  {
+    slug: "mental-health-app-interoperability-avalochat-healthcare-system-integration",
+    title: "Mental Health App Interoperability: AvaLoChat Healthcare System Integration",
+    excerpt: "Technical standards and protocols for integrating mental health apps with medical records.",
+    category: "Mental Health Technology",
+    date: "2025-09-22",
+    readTime: "11 min read"
+  },
+
+  // BATCH 2: NEW ARTICLES - Family Systems (10 more)
+  {
+    slug: "single-parent-family-operating-system-solo-household-management-strategies",
+    title: "Single Parent Family Operating System: Solo Household Management Strategies",
+    excerpt: "Adapted family system frameworks for single-parent households and unique challenges.",
+    category: "Family Systems",
+    date: "2025-09-23",
+    readTime: "10 min read"
+  },
+  {
+    slug: "multi-generational-family-operating-system-grandparent-integration-guide",
+    title: "Multi-Generational Family Operating System: Grandparent Integration Guide",
+    excerpt: "Expanding family systems to include grandparents and extended family members effectively.",
+    category: "Family Systems",
+    date: "2025-09-24",
+    readTime: "9 min read"
+  },
+  {
+    slug: "family-emergency-preparedness-operating-system-crisis-response-planning",
+    title: "Family Emergency Preparedness: Operating System Crisis Response Planning",
+    excerpt: "Systematic approaches to family emergency planning and crisis communication protocols.",
+    category: "Family Systems",
+    date: "2025-09-25",
+    readTime: "11 min read"
+  },
+  {
+    slug: "neurodivergent-family-operating-system-autism-adhd-accommodations",
+    title: "Neurodivergent Family Operating System: Autism & ADHD Accommodations",
+    excerpt: "Adapting family systems for neurodivergent family members with specialized needs.",
+    category: "Family Systems",
+    date: "2025-09-26",
+    readTime: "12 min read"
+  },
+  {
+    slug: "family-business-operating-system-work-life-integration-boundaries",
+    title: "Family Business Operating System: Work-Life Integration & Boundaries",
+    excerpt: "Balancing family relationships with business operations through structured systems.",
+    category: "Family Systems",
+    date: "2025-09-27",
+    readTime: "10 min read"
+  },
+  {
+    slug: "adoptive-family-operating-system-attachment-trauma-informed-approach",
+    title: "Adoptive Family Operating System: Attachment & Trauma-Informed Approach",
+    excerpt: "Specialized family system adaptations for adoptive families and attachment challenges.",
+    category: "Family Systems",
+    date: "2025-09-28",
+    readTime: "13 min read"
+  },
+  {
+    slug: "family-sabbatical-planning-operating-system-extended-travel-structure",
+    title: "Family Sabbatical Planning: Operating System for Extended Travel & Structure",
+    excerpt: "Maintaining family systems and routines during sabbaticals and extended travel periods.",
+    category: "Family Systems",
+    date: "2025-09-29",
+    readTime: "8 min read"
+  },
+  {
+    slug: "military-family-operating-system-deployment-relocation-stability",
+    title: "Military Family Operating System: Deployment & Relocation Stability",
+    excerpt: "Family system strategies for military families managing deployments and frequent moves.",
+    category: "Family Systems",
+    date: "2025-09-30",
+    readTime: "11 min read"
+  },
+  {
+    slug: "family-inheritance-planning-operating-system-wealth-transfer-values",
+    title: "Family Inheritance Planning: Operating System for Wealth Transfer & Values",
+    excerpt: "Systematic approaches to family legacy planning and intergenerational value transmission.",
+    category: "Family Systems",
+    date: "2025-10-01",
+    readTime: "12 min read"
+  },
+  {
+    slug: "international-family-operating-system-cross-cultural-communication-guide",
+    title: "International Family Operating System: Cross-Cultural Communication Guide",
+    excerpt: "Family system adaptations for international families and cross-cultural dynamics.",
+    category: "Family Systems",
+    date: "2025-10-02",
+    readTime: "9 min read"
+  },
+
+  // BATCH 2: NEW ARTICLES - Children's Nutrition (10 more)
+  {
+    slug: "toddler-protein-deficiency-signs-igf-one-early-intervention-nutrition",
+    title: "Toddler Protein Deficiency Signs: IGF One Early Intervention Nutrition",
+    excerpt: "Identifying and addressing protein inadequacy in toddlers with targeted nutritional support.",
+    category: "Children's Nutrition",
+    date: "2025-10-03",
+    readTime: "8 min read"
+  },
+  {
+    slug: "plant-based-children-protein-sources-igf-one-vegetarian-family-nutrition",
+    title: "Plant-Based Children's Protein Sources: IGF One Vegetarian Family Nutrition",
+    excerpt: "Comprehensive guide to meeting children's protein needs on vegetarian and vegan diets.",
+    category: "Children's Nutrition",
+    date: "2025-10-04",
+    readTime: "10 min read"
+  },
+  {
+    slug: "childhood-obesity-protein-balance-igf-one-healthy-weight-management",
+    title: "Childhood Obesity & Protein Balance: IGF One Healthy Weight Management",
+    excerpt: "Using appropriate protein intake to support healthy weight management in children.",
+    category: "Children's Nutrition",
+    date: "2025-10-05",
+    readTime: "11 min read"
+  },
+  {
+    slug: "special-needs-children-nutrition-igf-one-adaptive-feeding-strategies",
+    title: "Special Needs Children Nutrition: IGF One Adaptive Feeding Strategies",
+    excerpt: "Specialized nutrition approaches for children with developmental and physical disabilities.",
+    category: "Children's Nutrition",
+    date: "2025-10-06",
+    readTime: "12 min read"
+  },
+  {
+    slug: "teen-athlete-protein-requirements-igf-one-adolescent-sports-nutrition",
+    title: "Teen Athlete Protein Requirements: IGF One Adolescent Sports Nutrition",
+    excerpt: "Advanced protein needs for teenage athletes and performance optimization strategies.",
+    category: "Children's Nutrition",
+    date: "2025-10-07",
+    readTime: "9 min read"
+  },
+  {
+    slug: "children-gut-health-protein-absorption-igf-one-digestive-wellness",
+    title: "Children's Gut Health & Protein Absorption: IGF One Digestive Wellness",
+    excerpt: "Supporting children's digestive health for optimal protein utilization and growth.",
+    category: "Children's Nutrition",
+    date: "2025-10-08",
+    readTime: "10 min read"
+  },
+  {
+    slug: "homeschool-nutrition-planning-igf-one-educational-meal-strategies",
+    title: "Homeschool Nutrition Planning: IGF One Educational Meal Strategies",
+    excerpt: "Systematic nutrition planning for homeschooling families and educational meal integration.",
+    category: "Children's Nutrition",
+    date: "2025-10-09",
+    readTime: "8 min read"
+  },
+  {
+    slug: "children-immune-system-protein-igf-one-illness-prevention-nutrition",
+    title: "Children's Immune System & Protein: IGF One Illness Prevention Nutrition",
+    excerpt: "How adequate protein intake supports children's immune function and disease resistance.",
+    category: "Children's Nutrition",
+    date: "2025-10-10",
+    readTime: "9 min read"
+  },
+  {
+    slug: "premature-baby-nutrition-igf-one-nicu-graduate-feeding-guide",
+    title: "Premature Baby Nutrition: IGF One NICU Graduate Feeding Guide",
+    excerpt: "Specialized nutrition considerations for premature infants transitioning to solid foods.",
+    category: "Children's Nutrition",
+    date: "2025-10-11",
+    readTime: "11 min read"
+  },
+  {
+    slug: "travel-children-nutrition-igf-one-portable-healthy-snack-solutions",
+    title: "Travel Children Nutrition: IGF One Portable Healthy Snack Solutions",
+    excerpt: "Maintaining children's nutritional needs during family travel with convenient protein options.",
+    category: "Children's Nutrition",
+    date: "2025-10-12",
     readTime: "7 min read"
   }
 ];
