@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Services - Adam Moen | AI Automation & Content Strategy",
-  description: "Professional AI automation and viral content strategy services. Transform your business with data-driven solutions and scalable automation systems.",
+  title: "Services - Adam Moen | Mental Health Speaking & Wellness Solutions",
+  description: "Mental health keynote speaking, AvaLoChat app, The Family Operating System, and IGF One children's protein snacks. Transform your organization and family wellness.",
 };
 
 export default function Services() {
@@ -14,67 +14,67 @@ export default function Services() {
             Services
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-12">
-            Transform your business with AI automation and viral content strategies
+            Mental health speaking, wellness innovation, and family systems that create lasting impact
           </p>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl">
               <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">
-                Viral Content Automation
+                Mental Health Keynote Speaking
               </h2>
               <p className="text-slate-600 dark:text-slate-300 mb-6">
-                Multi-platform content generation and posting systems that create engaging videos and posts at scale across TikTok, Instagram, YouTube, and Twitter.
+                Authentic, powerful presentations that transform how organizations and individuals approach mental health, resilience, and embracing imperfection.
               </p>
               <ul className="text-slate-600 dark:text-slate-300 space-y-2">
-                <li>• AI-powered video generation</li>
-                <li>• Multi-platform posting automation</li>
-                <li>• Content optimization for engagement</li>
-                <li>• Analytics and performance tracking</li>
+                <li>• Corporate wellness keynotes</li>
+                <li>• Conference and event speaking</li>
+                <li>• Workshop facilitation</li>
+                <li>• Authenticity and vulnerability training</li>
               </ul>
             </div>
             
             <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl">
               <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">
-                AI Business Automation
+                AvaLoChat - Free Mental Health App
               </h2>
               <p className="text-slate-600 dark:text-slate-300 mb-6">
-                Custom automation solutions that streamline operations, reduce manual work, and drive measurable growth through intelligent systems.
+                Revolutionary mental health support platform providing free access to resources, community support, and personalized guidance for mental wellness.
               </p>
               <ul className="text-slate-600 dark:text-slate-300 space-y-2">
-                <li>• Workflow automation development</li>
-                <li>• Data processing and analysis</li>
-                <li>• API integrations and webhooks</li>
-                <li>• Custom dashboard creation</li>
+                <li>• Free mental health resources</li>
+                <li>• Community support network</li>
+                <li>• Personalized wellness tracking</li>
+                <li>• Crisis intervention tools</li>
               </ul>
             </div>
             
             <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl">
               <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">
-                Content Strategy Consulting
+                The Family Operating System
               </h2>
               <p className="text-slate-600 dark:text-slate-300 mb-6">
-                Data-driven content strategies using AI to identify trending topics, optimize engagement, and build sustainable growth.
+                Comprehensive framework helping families create structure, communication patterns, and systems that support every member&apos;s growth and wellbeing.
               </p>
               <ul className="text-slate-600 dark:text-slate-300 space-y-2">
-                <li>• Trend analysis and topic research</li>
-                <li>• Content calendar optimization</li>
-                <li>• Platform-specific strategy development</li>
-                <li>• Performance measurement and iteration</li>
+                <li>• Family communication systems</li>
+                <li>• Conflict resolution frameworks</li>
+                <li>• Goal setting and accountability</li>
+                <li>• Wellness integration strategies</li>
               </ul>
             </div>
             
             <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl">
               <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">
-                Technical Implementation
+                IGF One Children&apos;s Protein Snacks
               </h2>
               <p className="text-slate-600 dark:text-slate-300 mb-6">
-                Full-stack development services focused on automation tools, content management systems, and scalable web applications.
+                Premium children&apos;s protein snacks designed to support healthy growth, development, and nutrition for active kids and families.
               </p>
               <ul className="text-slate-600 dark:text-slate-300 space-y-2">
-                <li>• Python automation scripts</li>
-                <li>• Web scraping and data collection</li>
-                <li>• API development and integration</li>
-                <li>• Database design and optimization</li>
+                <li>• High-quality protein nutrition</li>
+                <li>• Kid-friendly flavors and formats</li>
+                <li>• Supports healthy growth</li>
+                <li>• Family wellness integration</li>
               </ul>
             </div>
           </div>

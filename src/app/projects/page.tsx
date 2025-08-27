@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Projects - Adam Moen | AI Automation Portfolio",
-  description: "Explore my portfolio of AI automation projects, viral content systems, and business automation solutions that drive real results.",
+  title: "Projects - Adam Moen | Mental Health Innovation Portfolio",  
+  description: "Explore AvaLoChat mental health app, 'Broken' book, The Family Operating System, and IGF One children's nutrition - projects transforming wellness.",
 };
 
 export default function Projects() {
@@ -11,64 +11,82 @@ export default function Projects() {
       <div className="container mx-auto px-6 py-20">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-6">
-            Projects
+            Projects & Innovations
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-12">
-            Real-world automation solutions that drive measurable results
+            Mental health innovation, family wellness systems, and transformative content that creates real impact
           </p>
           
           <div className="space-y-12">
             <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl">
               <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">
-                Viral Video Automation System
+                AvaLoChat - Free Mental Health Support App
               </h2>
               <p className="text-slate-600 dark:text-slate-300 mb-6">
-                AI-powered system that generates viral mental health videos and posts them across TikTok, Instagram, YouTube, and Twitter. Achieved 100% success rate across all platforms with 5x daily posting schedule.
+                Revolutionary mental health platform providing free access to resources, community support, and personalized guidance. Breaking down barriers to mental health care through technology and authentic connection.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Python</span>
-                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">AI Video Generation</span>
-                <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Multi-Platform API</span>
-                <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Automation</span>
+                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Mental Health</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Mobile App</span>
+                <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Community Platform</span>
+                <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">Free Access</span>
               </div>
               <div className="text-slate-600 dark:text-slate-300">
-                <strong>Results:</strong> 4 platforms, 5x daily posts, automated content tracking, viral engagement optimization
+                <strong>Impact:</strong> Free mental health resources, crisis intervention tools, community support network, personalized wellness tracking
               </div>
             </div>
             
             <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl">
               <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">
-                Reddit Mental Health Analyzer
+                &quot;Broken: How to Be Comfortable being Imperfect in a &apos;Perfect&apos; World&quot;
               </h2>
               <p className="text-slate-600 dark:text-slate-300 mb-6">
-                Advanced content analysis system that identifies trending mental health discussions on Reddit and transforms them into actionable video proposals for content creation.
+                Transformative book exploring the power of embracing imperfection, vulnerability, and authentic living in our social media-driven world. A guide to finding comfort in our &quot;broken&quot; places.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Python</span>
-                <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Reddit API</span>
-                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">NLP Analysis</span>
-                <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">Google Sheets</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Published Author</span>
+                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Mental Health</span>
+                <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Authenticity</span>
+                <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Self-Help</span>
               </div>
               <div className="text-slate-600 dark:text-slate-300">
-                <strong>Features:</strong> Sentiment analysis, trend detection, automated content proposals, engagement scoring
+                <strong>Themes:</strong> Vulnerability, authenticity, imperfection acceptance, mental health awareness, social media impact
               </div>
             </div>
             
             <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl">
               <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">
-                Parasite SEO Content Engine
+                The Family Operating System
               </h2>
               <p className="text-slate-600 dark:text-slate-300 mb-6">
-                Automated system for generating and posting SEO-optimized Twitter threads and Medium articles targeting high-value mental health keywords for organic traffic growth.
+                Comprehensive framework helping families create structure, healthy communication patterns, and systems that support every member&apos;s growth, wellbeing, and authentic connection.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">SEO</span>
-                <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Content Marketing</span>
-                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Twitter API</span>
-                <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">Medium Automation</span>
+                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Family Systems</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Communication</span>
+                <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Framework</span>
+                <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">Wellness</span>
               </div>
               <div className="text-slate-600 dark:text-slate-300">
-                <strong>Impact:</strong> Automated content creation, keyword targeting, viral thread templates, brand promotion
+                <strong>Components:</strong> Communication protocols, conflict resolution systems, goal alignment, wellness integration strategies
+              </div>
+            </div>
+            
+            <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl">
+              <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">
+                IGF One Children&apos;s Protein Snacks
+              </h2>
+              <p className="text-slate-600 dark:text-slate-300 mb-6">
+                Premium children&apos;s nutrition innovation designed to support healthy growth and development. Creating kid-friendly protein snacks that families love and trust for optimal nutrition.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Children&apos;s Nutrition</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Product Innovation</span>
+                <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Health & Wellness</span>
+                <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Family Products</span>
+              </div>
+              <div className="text-slate-600 dark:text-slate-300">
+                <strong>Focus:</strong> High-quality protein nutrition, kid-approved taste, healthy growth support, family wellness integration
               </div>
             </div>
           </div>

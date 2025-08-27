@@ -13,24 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Adam Moen - AI Automation & Content Strategy Expert",
-  description: "Building viral content systems and AI-powered automation solutions that scale businesses and transform digital presence.",
-  keywords: ["AI automation", "content strategy", "viral content", "business automation", "digital marketing", "Adam Moen"],
+  title: "Adam Moen - Mental Health Speaker & Entrepreneur",
+  description: "Mental health keynote speaker, creator of AvaLoChat free mental health app, author of 'Broken', and founder of The Family Operating System and IGF One children's nutrition.",
+  keywords: ["mental health speaker", "keynote speaker", "AvaLoChat", "mental health app", "broken book", "family operating system", "IGF One", "children nutrition", "Adam Moen"],
   authors: [{ name: "Adam Moen" }],
   creator: "Adam Moen",
   publisher: "Adam Moen",
   metadataBase: new URL('https://adammoen.me'),
   openGraph: {
-    title: "Adam Moen - AI Automation & Content Strategy Expert",
-    description: "Building viral content systems and AI-powered automation solutions that scale businesses and transform digital presence.",
+    title: "Adam Moen - Mental Health Speaker & Entrepreneur", 
+    description: "Mental health keynote speaker, creator of AvaLoChat free mental health app, author of 'Broken', and founder of The Family Operating System and IGF One children's nutrition.",
     url: "https://adammoen.me",
     siteName: "Adam Moen",
     type: "website",
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Adam Moen - AI Automation & Content Strategy Expert",
-    description: "Building viral content systems and AI-powered automation solutions that scale businesses and transform digital presence.",
+    card: "summary_large_image", 
+    title: "Adam Moen - Mental Health Speaker & Entrepreneur",
+    description: "Mental health keynote speaker, creator of AvaLoChat free mental health app, author of 'Broken', and founder of The Family Operating System and IGF One children's nutrition.",
   },
   robots: {
     index: true,
