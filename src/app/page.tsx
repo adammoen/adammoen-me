@@ -13,18 +13,24 @@ export default function Home() {
             Transforming mental health through speaking, innovation, and authentic storytelling. Creator of AvaLoChat and author of &quot;Broken&quot; - helping individuals and families thrive.
           </p>
           
-          <div className="flex gap-6 justify-center mb-16">
+          <div className="flex gap-4 justify-center mb-16">
             <a
-              href="#services"
+              href="/services"
               className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               View Services
             </a>
             <a
-              href="#projects"
+              href="/projects"
               className="border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
             >
               See Projects
+            </a>
+            <a
+              href="/blog"
+              className="border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+            >
+              Read Blog
             </a>
           </div>
           
