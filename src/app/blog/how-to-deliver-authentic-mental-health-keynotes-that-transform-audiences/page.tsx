@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     publishedTime: "2025-08-27T00:00:00Z",
     authors: ["Adam Moen"],
   },
-  // Schema markup for better SEO
+  // Schema markup for better SEO  
   other: {
-    "application/ld+json": JSON.stringify({
+    "article-schema": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "How to Deliver Authentic Mental Health Keynotes That Transform Audiences",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
       },
       "articleSection": "Mental Health Speaking"
     }),
-    "application/ld+json": JSON.stringify({
+    "faq-schema": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [

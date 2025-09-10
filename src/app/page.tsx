@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-blue-900">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-50 to-teal-50 dark:from-slate-900 dark:to-emerald-900">
       <div className="container mx-auto px-6 py-20">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6">
@@ -10,13 +10,13 @@ export default function Home() {
             Mental Health Speaker & Entrepreneur
           </p>
           <p className="text-lg text-slate-500 dark:text-slate-400 max-w-2xl mx-auto mb-12">
-            Transforming mental health through speaking, innovation, and authentic storytelling. Creator of AvaLoChat and author of &quot;Broken&quot; - helping individuals and families thrive.
+            Transforming mental health through speaking, innovation, and authentic storytelling. Creator of Avalochat and author of &quot;Prescribed to Fail&quot; - helping individuals and families thrive.
           </p>
           
           <div className="flex gap-4 justify-center mb-16">
             <a
               href="/services"
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              className="bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors"
             >
               View Services
             </a>
@@ -32,6 +32,12 @@ export default function Home() {
             >
               Read Blog
             </a>
+            <a
+              href="/contact"
+              className="bg-teal-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-teal-700 transition-colors"
+            >
+              Contact Adam
+            </a>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 text-left">
@@ -46,7 +52,7 @@ export default function Home() {
             
             <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm">
               <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">
-                AvaLoChat App
+                Avalochat App
               </h3>
               <p className="text-slate-600 dark:text-slate-300">
                 Free mental health support platform connecting individuals with resources, community, and personalized guidance.
@@ -58,7 +64,7 @@ export default function Home() {
                 Family Systems & Wellness
               </h3>
               <p className="text-slate-600 dark:text-slate-300">
-                The Family Operating System framework and IGF One children&apos;s protein snacks - supporting healthy families holistically.
+                The Family Operating System framework and Children&apos;s Health Snack Supplement - supporting healthy families holistically.
               </p>
             </div>
           </div>

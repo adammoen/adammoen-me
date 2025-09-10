@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,15 +15,15 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Adam Moen - Mental Health Speaker & Entrepreneur",
-  description: "Mental health keynote speaker, creator of AvaLoChat free mental health app, author of 'Broken', and founder of The Family Operating System and IGF One children's nutrition.",
-  keywords: ["mental health speaker", "keynote speaker", "AvaLoChat", "mental health app", "broken book", "family operating system", "IGF One", "children nutrition", "Adam Moen"],
+  description: "Mental health keynote speaker, creator of Avalochat free mental health app, author of 'Prescribed to Fail', and founder of The Family Operating System and Children's Health Snack Supplement.",
+  keywords: ["mental health speaker", "keynote speaker", "Avalochat", "mental health app", "prescribed to fail book", "family operating system", "children health supplement", "Adam Moen"],
   authors: [{ name: "Adam Moen" }],
   creator: "Adam Moen",
   publisher: "Adam Moen",
   metadataBase: new URL('https://adammoen.me'),
   openGraph: {
     title: "Adam Moen - Mental Health Speaker & Entrepreneur", 
-    description: "Mental health keynote speaker, creator of AvaLoChat free mental health app, author of 'Broken', and founder of The Family Operating System and IGF One children's nutrition.",
+    description: "Mental health keynote speaker, creator of Avalochat free mental health app, author of 'Prescribed to Fail', and founder of The Family Operating System and Children's Health Snack Supplement.",
     url: "https://adammoen.me",
     siteName: "Adam Moen",
     type: "website",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image", 
     title: "Adam Moen - Mental Health Speaker & Entrepreneur",
-    description: "Mental health keynote speaker, creator of AvaLoChat free mental health app, author of 'Broken', and founder of The Family Operating System and IGF One children's nutrition.",
+    description: "Mental health keynote speaker, creator of Avalochat free mental health app, author of 'Prescribed to Fail', and founder of The Family Operating System and Children's Health Snack Supplement.",
   },
   robots: {
     index: true,
@@ -56,6 +57,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );

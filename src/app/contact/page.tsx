@@ -28,10 +28,10 @@ export default function Contact() {
                   Email
                 </h3>
                 <a 
-                  href="mailto:hello@adammoen.me" 
-                  className="text-blue-600 hover:text-blue-700 text-lg"
+                  href="mailto:adam@reptech.io" 
+                  className="text-emerald-600 hover:text-emerald-700 text-lg"
                 >
-                  hello@adammoen.me
+                  adam@reptech.io
                 </a>
               </div>
               
@@ -59,7 +59,7 @@ export default function Contact() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 text-left">
-            <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-xl">
+            <div className="bg-emerald-50 dark:bg-emerald-900/20 p-6 rounded-xl">
               <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">
                 Perfect For
               </h3>
