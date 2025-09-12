@@ -44,7 +44,7 @@ export default function BookChapter1() {
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              What brought me to the bridge that day wasn&apos;t a single catastrophic event. It was the accumulation of months of trying to fix myself through the mental health system and somehow feeling worse with each attempt. The therapy sessions where I&apos;d dutifully report my symptoms like a good patient, only to leave feeling more pathologized and less human. The medications that promised to rebalance my brain chemistry but left me feeling like a ghost of myself.
+              What brought me to the bridge that day wasn&apos;t a single catastrophic event. It was the accumulation of months of trying to fix myself through the conventional approaches and somehow feeling worse with each attempt. The endless cycle of analyzing what was wrong with me, trying to optimize my thoughts and behaviors, only to leave each session feeling more pathologized and less human.
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
@@ -60,31 +60,31 @@ export default function BookChapter1() {
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              So I did what good patients do: I went to therapy. I answered the questionnaires. I tried the medications. I followed the protocols. And month by month, I felt myself disappearing.
+              So I did what I was supposed to do: I went to therapy. I answered the questionnaires. I followed the protocols. And month by month, I felt myself disappearing.
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              The therapist was kind enough, a middle-aged woman who nodded sympathetically as I described my feelings of worthlessness and inability to find joy in anything that used to matter to me. She diagnosed me with depression and anxiety, as if giving my suffering a medical name would somehow contain it. She prescribed cognitive behavioral therapy techniques and suggested I might benefit from seeing a psychiatrist for medication.
+              The therapist was kind enough, a middle-aged woman who nodded sympathetically as I described my feelings of worthlessness and inability to find joy in anything that used to matter to me. She diagnosed me with depression and anxiety, as if giving my suffering a medical name would somehow contain it. She prescribed cognitive behavioral therapy techniques and homework assignments to restructure my thinking.
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              The psychiatrist was efficient. Twenty minutes to review my history, run through a diagnostic checklist, and prescribe my first antidepressant. &quot;It takes four to six weeks to feel the full effects,&quot; she explained, already reaching for her prescription pad. &quot;We might need to adjust the dosage or try a different medication if this one doesn&apos;t work.&quot;
+              The treatment approach was systematic. Weekly sessions to review my progress, run through diagnostic questionnaires, and adjust my therapeutic homework. &quot;It takes time to see real changes,&quot; she explained, already pulling out worksheets for the next assignment. &quot;We might need to try different techniques if this approach doesn&apos;t work.&quot;
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              She didn&apos;t mention that I might feel worse before I felt better. She didn&apos;t explain that the &quot;chemical imbalance&quot; she casually referenced as the cause of my depression was actually a marketing theory with no solid scientific backing. She certainly didn&apos;t suggest that my suffering might serve a purpose, or that the path through it might require something other than pharmaceutical intervention.
+              She didn&apos;t mention that I might feel worse before I felt better. She didn&apos;t question whether the &quot;chemical imbalance&quot; theory she casually referenced as the cause of my depression might be oversimplified. She certainly didn&apos;t suggest that my suffering might serve a purpose, or that the path through it might require something other than clinical intervention.
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              For six weeks, I waited to feel better. Instead, I felt disconnected, like I was experiencing my life through thick glass. My emotions were muted, but not in a peaceful way—more like someone had turned down the volume on everything that used to make me feel alive. When I reported this to my psychiatrist, she suggested we try a different medication. &quot;Sometimes it takes a few tries to find the right fit,&quot; she said cheerfully.
+              For months, I waited to feel better. Instead, I felt increasingly disconnected, like I was experiencing my life through thick glass. My emotions were muted, but not in a peaceful way—more like someone had turned down the volume on everything that used to make me feel alive. When I reported this, we tried different therapeutic approaches. &quot;Sometimes it takes multiple modalities to find what works,&quot; she said optimistically.
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              The second medication made me gain weight and gave me a persistent tremor in my hands. The third made me feel agitated and sleepless. Each adjustment was presented as fine-tuning, as if my brain were a machine that just needed the right chemical cocktail to function properly.
+              Each new technique was presented as fine-tuning, as if my mind were a machine that just needed the right therapeutic protocol to function properly. Cognitive restructuring, mindfulness exercises, behavioral modification—all designed to fix what was supposedly broken in my thinking.
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              But I wasn&apos;t feeling more like myself. I was feeling less like myself with each attempt. The person I&apos;d been before—even the depressed, anxious version—was disappearing under layers of pharmaceutical intervention. I started to wonder if the cure was becoming worse than the disease.
+              But I wasn&apos;t feeling more like myself. I was feeling less like myself with each attempt. The person I&apos;d been before—even the depressed, anxious version—was disappearing under layers of therapeutic intervention. I started to wonder if the cure was becoming worse than the disease.
             </p>
 
             <p className="text-lg leading-relaxed mb-8">

@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import ContactForm from "../components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact - Adam Moen | Get Started with AI Automation",
-  description: "Ready to transform your business with AI automation and viral content strategy? Contact Adam Moen to discuss your project and get started.",
+  title: "Contact - Adam Moen | Mental Health Speaker & Wellness Expert",
+  description: "Book Adam Moen for mental health keynotes, explore AvaLoChat app services, or learn about The Family Operating System. Transform your organization's wellness approach.",
 };
 
 export default function Contact() {
@@ -14,48 +15,15 @@ export default function Contact() {
             Let&apos;s Work Together
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-12">
-            Ready to transform your business with AI automation and viral content strategy?
+            Ready to transform your organization&apos;s approach to mental health and wellness?
           </p>
           
-          <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl mb-8">
-            <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-6">
-              Get Started
-            </h2>
-            
-            <div className="space-y-6 text-left">
-              <div>
-                <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">
-                  Email
-                </h3>
-                <a 
-                  href="mailto:adam@reptech.io" 
-                  className="text-emerald-600 hover:text-emerald-700 text-lg"
-                >
-                  adam@reptech.io
-                </a>
-              </div>
-              
-              <div>
-                <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">
-                  What to Include
-                </h3>
-                <ul className="text-slate-600 dark:text-slate-300 space-y-2">
-                  <li>• Brief description of your business/project</li>
-                  <li>• What you&apos;re looking to automate or improve</li>
-                  <li>• Your current content strategy challenges</li>
-                  <li>• Timeline and budget considerations</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">
-                  Response Time
-                </h3>
-                <p className="text-slate-600 dark:text-slate-300">
-                  I typically respond within 24 hours with initial thoughts and next steps.
-                </p>
-              </div>
-            </div>
+          <ContactForm />
+          
+          <div className="text-center mb-8">
+            <p className="text-slate-600 dark:text-slate-300">
+              <strong>Response Time:</strong> I typically respond within 24 hours with initial thoughts and next steps.
+            </p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 text-left">
@@ -64,22 +32,22 @@ export default function Contact() {
                 Perfect For
               </h3>
               <ul className="text-slate-600 dark:text-slate-300 space-y-2">
-                <li>• Content creators scaling their presence</li>
-                <li>• Businesses automating repetitive tasks</li>
-                <li>• Entrepreneurs building content systems</li>
-                <li>• Companies needing custom automation</li>
+                <li>• Corporate wellness programs</li>
+                <li>• Mental health conferences</li>
+                <li>• Educational institutions</li>
+                <li>• Healthcare organizations</li>
               </ul>
             </div>
             
             <div className="bg-green-50 dark:bg-green-900/20 p-6 rounded-xl">
               <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">
-                Project Types
+                Speaking Services
               </h3>
               <ul className="text-slate-600 dark:text-slate-300 space-y-2">
-                <li>• One-time automation setup</li>
-                <li>• Ongoing content strategy</li>
-                <li>• Custom tool development</li>
-                <li>• Integration and optimization</li>
+                <li>• Keynote presentations</li>
+                <li>• Workshop facilitation</li>
+                <li>• Panel discussions</li>
+                <li>• Virtual presentations</li>
               </ul>
             </div>
           </div>

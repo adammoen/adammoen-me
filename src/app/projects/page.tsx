@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Projects - Adam Moen | Mental Health Innovation Portfolio",  
@@ -23,22 +22,25 @@ export default function Projects() {
             <h2 className="text-3xl font-semibold text-slate-900 dark:text-white mb-8 text-center">
               About Adam & Family
             </h2>
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="rounded-xl overflow-hidden shadow-lg">
-                <Image 
+                <img 
                   src="/family-photo-1.jpg" 
-                  alt="Adam Moen with family apple picking" 
-                  width={600}
-                  height={400}
+                  alt="Adam Moen with family" 
                   className="w-full h-64 object-cover"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg">
-                <Image 
+                <img 
+                  src="/family-apple-picking.jpg" 
+                  alt="Adam Moen family apple picking together" 
+                  className="w-full h-64 object-cover"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg">
+                <img 
                   src="/family-photo-2.jpg" 
                   alt="Adam Moen family photo" 
-                  width={600}
-                  height={400}
                   className="w-full h-64 object-cover"
                 />
               </div>
