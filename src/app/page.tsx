@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-emerald-50 to-teal-50 dark:from-slate-900 dark:to-emerald-900">
@@ -6,9 +8,12 @@ export default function Home() {
           {/* Profile Image */}
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto rounded-full overflow-hidden shadow-lg">
-              <img
-                src="/adam-headshot.jpg" 
-                alt="Adam Moen headshot" 
+              <Image
+                src="/adam-headshot.jpg"
+                alt="Adam Moen headshot"
+                width={256}
+                height={334}
+                priority
                 className="w-full h-full object-cover"
               />
             </div>
@@ -21,7 +26,7 @@ export default function Home() {
             Mental Health Speaker & Entrepreneur
           </p>
           <p className="text-lg text-slate-500 dark:text-slate-400 max-w-2xl mx-auto mb-8">
-            Transforming mental health through speaking, innovation, and authentic storytelling. Creator of Avalochat and author of &quot;Prescribed to Fail&quot; - helping individuals and families thrive.
+            Transforming mental health through speaking, innovation, and authentic storytelling. Creator of Veisund and author of &quot;Prescribed to Fail&quot; - helping individuals and families thrive.
           </p>
           
           {/* Credibility Stats */}
@@ -83,7 +88,7 @@ export default function Home() {
             
             <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm">
               <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">
-                Avalochat App
+                Veisund App
               </h3>
               <p className="text-slate-600 dark:text-slate-300">
                 Free mental health support platform connecting individuals with resources, community, and personalized guidance.
