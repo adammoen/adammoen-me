@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog - Adam Moen | Mental Health Speaking & Wellness Insights",
-  description: "Expert insights on mental health speaking, AvaLoChat app development, family operating systems, and children's nutrition. Practical advice for speakers and wellness professionals.",
+  title: "Blog - Adam Moen | Mental Health Speaking",
+  description: "Insights on mental health speaking, app development, family operating systems, and children's nutrition.",
   keywords: ["mental health blog", "keynote speaking tips", "mental health app insights", "family systems blog", "children nutrition advice"],
 };
 
-// Blog post data structure - ALL 80 POSTS
-const blogPosts = [
+// Blog post data structure. Only slugs in PUBLISHED_SLUGS have a page under src/app/blog/<slug>/; the rest are planned and must not be linked.
+const allBlogPosts = [
   // Mental Health Speaking Posts
   {
     slug: "how-to-deliver-authentic-mental-health-keynotes-that-transform-audiences",
@@ -666,6 +666,21 @@ const blogPosts = [
   }
 ];
 
+const PUBLISHED_SLUGS = new Set([
+  "executive-leadership-mental-health-keynote-c-suite-engagement-strategies",
+  "free-mental-health-apps-vs-avalochat-comprehensive-comparison",
+  "healthcare-worker-burnout-keynote-speaking-frontline-mental-wellness",
+  "how-to-deliver-authentic-mental-health-keynotes-that-transform-audiences",
+  "mental-health-ai-chatbots-avalochat-human-connection-vs-automation",
+  "mental-health-first-aid-workplace-keynote-training-integration",
+  "mental-health-stigma-workplace-keynote-speakers-guide-breaking-barriers",
+  "remote-work-mental-health-virtual-keynote-engagement-techniques",
+  "single-parent-family-operating-system-solo-household-management-strategies",
+  "toddler-protein-deficiency-signs-igf-one-early-intervention-nutrition",
+])
+
+const blogPosts = allBlogPosts.filter(post => PUBLISHED_SLUGS.has(post.slug))
+
 export default function Blog() {
   // Group posts by category
   const categories = {
@@ -686,7 +701,7 @@ export default function Blog() {
             Expert insights on mental health speaking, wellness technology, family systems, and children&apos;s nutrition
           </p>
           
-          {Object.entries(categories).map(([categoryName, posts]) => (
+          {Object.entries(categories).filter(([, posts]) => posts.length > 0).map(([categoryName, posts]) => (
             <div key={categoryName} className="mb-16">
               <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-8 border-b border-slate-200 dark:border-slate-700 pb-4">
                 {categoryName}
