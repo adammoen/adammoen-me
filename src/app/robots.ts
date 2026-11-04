@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://adammoen.me/sitemap.xml',
+    sitemap: 'https://www.adammoen.me/sitemap.xml',
   }
 }
