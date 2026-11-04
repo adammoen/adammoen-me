@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Chapter 1: The Bridge - Prescribed to Fail by Adam Moen",
-  description: "Read the opening chapter of 'Prescribed to Fail' - Adam Moen's groundbreaking examination of how the mental health system fails patients through over-medicalization.",
+  description: "Read the opening chapter of 'Prescribed to Fail', Adam Moen's book on how the mental health system fails patients through over-medicalization.",
 };
 
 export default function BookChapter1() {

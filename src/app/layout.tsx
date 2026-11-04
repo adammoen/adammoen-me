@@ -16,23 +16,26 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Adam Moen - Mental Health Speaker & Entrepreneur",
-  description: "Mental health keynote speaker, creator of Avalochat free mental health app, author of 'Prescribed to Fail', and founder of The Family Operating System and Children's Health Snack Supplement.",
-  keywords: ["mental health speaker", "keynote speaker", "Avalochat", "mental health app", "prescribed to fail book", "family operating system", "children health supplement", "Adam Moen"],
+  description: "Mental health keynote speaker, creator of Veisund, author of 'Prescribed to Fail', and founder of The Family Operating System.",
+  keywords: ["mental health speaker", "keynote speaker", "Veisund", "mental health app", "prescribed to fail book", "family operating system", "children health supplement", "Adam Moen"],
   authors: [{ name: "Adam Moen" }],
   creator: "Adam Moen",
   publisher: "Adam Moen",
-  metadataBase: new URL('https://adammoen.me'),
+  metadataBase: new URL('https://www.adammoen.me'),
+  alternates: {
+    canonical: './',
+  },
   openGraph: {
     title: "Adam Moen - Mental Health Speaker & Entrepreneur", 
-    description: "Mental health keynote speaker, creator of Avalochat free mental health app, author of 'Prescribed to Fail', and founder of The Family Operating System and Children's Health Snack Supplement.",
-    url: "https://adammoen.me",
+    description: "Mental health keynote speaker, creator of Veisund, author of 'Prescribed to Fail', and founder of The Family Operating System.",
+    url: "./",
     siteName: "Adam Moen",
     type: "website",
   },
   twitter: {
     card: "summary_large_image", 
     title: "Adam Moen - Mental Health Speaker & Entrepreneur",
-    description: "Mental health keynote speaker, creator of Avalochat free mental health app, author of 'Prescribed to Fail', and founder of The Family Operating System and Children's Health Snack Supplement.",
+    description: "Mental health keynote speaker, creator of Veisund, author of 'Prescribed to Fail', and founder of The Family Operating System.",
   },
   robots: {
     index: true,

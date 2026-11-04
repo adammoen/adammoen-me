@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import ContactForm from "../components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact - Adam Moen | Mental Health Speaker & Wellness Expert",
-  description: "Book Adam Moen for mental health keynotes, explore AvaLoChat app services, or learn about The Family Operating System. Transform your organization's wellness approach.",
+  title: "Contact - Adam Moen | Mental Health Speaker",
+  description: "Book Adam Moen for mental health keynotes, or learn about Veisund and The Family Operating System.",
 };
 
 export default function Contact() {

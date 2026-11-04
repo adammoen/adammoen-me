@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Projects - Adam Moen | Mental Health Innovation Portfolio",  
-  description: "Explore Avalochat mental health app, 'Prescribed to Fail' book, The Family Operating System, and Children's Health Snack Supplement - projects transforming wellness.",
+  title: "Projects - Adam Moen | Mental Health Innovation",  
+  description: "Veisund mental health app, 'Prescribed to Fail' book, The Family Operating System, and Children's Health Snack Supplement.",
 };
 
 export default function Projects() {
@@ -53,7 +53,7 @@ export default function Projects() {
           <div className="space-y-12">
             <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl">
               <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">
-                Avalochat - Free Mental Health Support App
+                Veisund - Free Mental Health Support App
               </h2>
               <p className="text-slate-600 dark:text-slate-300 mb-6">
                 Revolutionary mental health platform providing free access to resources, community support, and personalized guidance. Breaking down barriers to mental health care through technology and authentic connection.
@@ -68,12 +68,12 @@ export default function Projects() {
                 <strong>Impact:</strong> Free mental health resources, crisis intervention tools, community support network, personalized wellness tracking
               </div>
               <a 
-                href="https://www.avalo.chat" 
+                href="https://www.veisund.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors"
               >
-                Visit Avalochat →
+                Visit Veisund →
               </a>
             </div>
             

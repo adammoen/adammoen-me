@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Services - Adam Moen | Mental Health Speaking & Wellness Solutions",
-  description: "Mental health keynote speaking, AvaLoChat app, The Family Operating System, and IGF One children's protein snacks. Transform your organization and family wellness.",
+  title: "Services - Adam Moen | Mental Health Speaker",
+  description: "Mental health keynote speaking, Veisund app, The Family Operating System, and IGF One children's protein snacks.",
 };
 
 export default function Services() {
@@ -35,7 +35,7 @@ export default function Services() {
             
             <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl">
               <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-4">
-                Avalochat - Free Mental Health App
+                Veisund - Free Mental Health App
               </h2>
               <p className="text-slate-600 dark:text-slate-300 mb-6">
                 Revolutionary mental health support platform providing free access to resources, community support, and personalized guidance for mental wellness.
